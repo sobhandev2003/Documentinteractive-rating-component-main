@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>Documentinteractive-rating-component-main</title>
+</head>
+
+<body>
+  <div class="body" id="f-width">
+    <div class="box" id="main">
+      <div class="star_div">
+        <img class="star" src="/images/icon-star.svg" alt="star">
+      </div>
+      <div class="text">
+        <h1> How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+      </div>
+      <div class="value">
+        
+        <form data-form>
+          <div class="rating-group">
+            <label id="btn1" class="radio-button">
+              <input type="radio" value="1" name="rating" class="btn" onclick="set_rating_value(value)" />
+              <span class="label">1 </span>
+            </label>
+            <label class="radio-button">
+              <input type="radio" value="2" name="rating" class="btn" onclick="set_rating_value(value)" />
+              <span class="label">2 </span>
+            </label>
+            <label class="radio-button">
+              <input type="radio" value="3" name="rating" class="btn" onclick="set_rating_value(value)" />
+              <span class="label">3 </span>
+            </label>
+            <label class="radio-button">
+              <input type="radio" value="4" name="rating" class="btn" onclick="set_rating_value(value)" />
+              <span class="label">4 </span>
+            </label>
+            <label class="radio-button">
+              <input type="radio" value="5" name="rating" class="btn" onclick="set_rating_value(value)" />
+              <span class="label">5 </span>
+            </label>
+          </div>
+
+        </form>
+      </div>
+      <div class="submit">
+        <button onclick="submit()">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

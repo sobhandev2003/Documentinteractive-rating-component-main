@@ -1,0 +1,270 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.body {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  margin-top: 38.4px;
+  background-color: black;
+  padding-top: 96px;
+}
+
+.box {
+  border: 2px hsl(213, 19%, 18%) solid;
+  border-radius: 40px;
+  margin: auto;
+  padding: 30px;
+  color: hsl(0, 0%, 100%);
+  width: 403.2px;
+  height: 422.4px;
+  background-color: hsl(213, 19%, 18%);
+
+}
+
+.star_div {
+
+  text-align: center;
+  border: 2px hsl(213, 19%, 18%) solid;
+  background-color: hsl(216, 12%, 8%);
+  height: 40px;
+  padding-top: 22px;
+  width: 65px;
+  border-radius: 150px;
+}
+.star_div img{
+  width: 25px; 
+}
+
+.text p {
+  font-size: 15px;
+}
+
+.value {
+  margin: 5px;
+  height: 70px;
+  padding: 0px;
+
+}
+
+
+.btn {
+  background-color: hsl(216, 12%, 8%);
+  text-decoration: none;
+  accent-color: white;
+  width: 0px;
+}
+
+.rating-group {
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid hsl(216, 12%, 8%);
+  background-color: hsl(216, 12%, 8%);
+  width: 40px;
+  height: 40px;
+  border-radius: 70px;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.radio-button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0px 8px;
+  
+
+}
+
+.label:hover {
+  background-color: hsl(25, 97%, 53%);
+  border: 2px solid hsl(25, 97%, 53%);
+}
+
+input[type="radio"]:checked+.label {
+ 
+  background-color: white;
+  color: black;
+
+
+}
+
+.submit {
+  border-radius: 35px;
+  width: 345.6px;
+  height: 49.92px;
+  margin-left: 19.2px;
+  margin-top: 38.4px;
+  text-align: center;
+}
+
+.submit button {
+  background-color: hsl(25, 97%, 53%);
+  margin-top: 12px;
+  width: 345.6px;
+  height: 48px;
+  border: 1px solid hsl(25, 97%, 53%);
+  border-radius: 35px;
+  cursor: pointer;
+  color: white;
+
+}
+
+.submit button:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: hsl(25, 97%, 53%);
+}
+
+.submit button a {
+  text-decoration: none;
+  background-color: white;
+  width: 345.6px;
+  height: 48px;
+
+}
+
+
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.rating_value {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  width: 249.6px;
+  height: 24.96px;
+  background-color: hsl(216, 12%, 8%);
+  border: 2px solid hsl(216, 12%, 8%);
+  border-radius: 20px;
+
+}
+
+.rating_para {
+  margin-top: 0px;
+  color: hsl(25, 81%, 61%);
+
+}
+
+/* -------------------For Mobiles---------------------------------------- */
+@media only screen and (max-width: 765px) {
+  body {
+    
+    background-color: black;
+  }
+
+  .body {
+  
+    width: device-width;
+    height: device-height;
+    background-color: black;
+  }
+
+  .box {
+    margin: auto;
+    width: 1000px;
+    height: 1500px;
+  }
+
+  .star_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 150px;
+    height: 120px;
+  }
+
+  .star_div img {
+    width: 70px;
+  }
+
+  .text {
+    width: 900px;
+    height: 500px;
+  }
+
+  .text h1 {
+    font-size: 70px;
+    margin: 100px 0px;
+  }
+
+  .text p {
+    font-size: 50px;
+  }
+
+  .value {
+    margin: auto;
+    width: 900px;
+    height: 96px;
+    text-align: center;
+    padding-top: 2px;
+  }
+
+  .label {
+    width: 150px;
+    height: 130px;
+    font-size: 60px;
+  }
+
+  
+
+  .radio-button {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 130px;
+  }
+
+  .submit {
+    margin: auto;
+    margin-top: 210px;
+    width: 900px;
+    height: 90px;
+  }
+
+  .submit button {
+    font-size: 50px;
+    width: 900px;
+    height: 120px;
+    border-radius: 60px;
+  }
+
+  .Sub_img {
+    margin: auto;
+    width: 400px;
+  }
+
+  .Sub_img img {
+    width: 300px;
+  }
+
+  .rating_value {
+
+    width: 500px;
+    height: 60px;
+
+
+
+  }
+
+  .rating_para {
+
+
+    font-size: 35px;
+  }
+}
