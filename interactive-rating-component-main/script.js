@@ -8,7 +8,7 @@ function submit() {
   if (rating > 0) {
     document.getElementById('main').innerHTML = `
     <div class="Sub_img center">
-    <img src="/images/illustration-thank-you.svg" alt="Thank you">
+    <img src="/interactive-rating-component-main/images/illustration-thank-you.svg" alt="Thank you">
   </div>
   <div class="rating_value white center">
     <p id="num_select center" class="rating_para">
